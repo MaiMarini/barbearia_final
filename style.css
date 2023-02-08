@@ -1,0 +1,56 @@
+h1 {
+    text-align: left;
+    font-size: 3em;
+/*adicionar mais propriedades use ';'*/
+}
+.titulo-esquerda{
+    padding-left: 20px;
+/*Usar "." para referenciar uma classe*/
+}
+#banner {
+
+    width: 100%;
+/*modificar propriedades da iamgem usando um identificador
+usar # para referenciar o identificador*/
+}
+.principal {
+    padding: 30px;
+    background: #cccccc
+}
+.titulo-centralizado {
+    font-size: 2em;
+    text-align: center;
+}
+p {
+    text-align: center;
+    background: #cccccc
+}
+#missao{
+    font-size: 20px;
+/*alterar propriedades de um paragrafo usando um identificador*/
+}
+strong {
+    color: #000000;
+/*alterar as propriedades da propriedade tbm é possível*/
+}
+strong em {
+    color:rgb(45, 45, 100);
+/*altera a propriedade 'em' que está dentro da propriedade 'strong'*/
+}
+.beneficios {
+    background: #ffffff;
+    padding: 20px;
+}
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+.itens {
+    font-style: italic;
+
+}
+.imagembeneficios {
+    width: 50%;
+}
